@@ -1,0 +1,23 @@
+/****Catalan numbers are defined as a mathematical sequence that consists of positive integers, which can be used to find the number of possibilities of various combinations. *******/
+
+#include<iostream>
+using namespace std;
+
+unsigned long int catalan(unsigned int n)
+{
+    if (n <= 1)
+        return 1;
+ 
+    // catalan(n) is sum of
+    // catalan(i)*catalan(n-i-1)
+    unsigned long int res = 0;
+    for (int i = 0; i < n; i++)
+        res += catalan(i) * catalan(n - i - 1);
+ 
+    return res;
+}
+int main(){
+    for (int i = 0; i < 10; i++)
+        cout << catalan(i) << " ";
+    return 0;
+}

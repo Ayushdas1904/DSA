@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ayush/Library/CloudStorage/GoogleDrive-23310@iiitu.ac.in/My Drive/PROGRAMMING/DSA/Array",
+      "program": "/Users/ayush/Library/CloudStorage/GoogleDrive-23310@iiitu.ac.in/My Drive/PROGRAMMING/DSA/Array/build/Debug/outDebug"
+    }
+  ]
+}
